@@ -1,6 +1,6 @@
 <img src="assets/header.svg" alt="Eva Legrand, software engineer" width="100%"/>
 
-**[LinkedIn](https://www.linkedin.com/in/eva-legrand/)** &nbsp;·&nbsp; [PlayForward](https://playforward.fr) &nbsp;·&nbsp; [GitHub](https://github.com/Chaegnal)
+**[Connect on LinkedIn →](https://www.linkedin.com/in/eva-legrand/)**
 
 I am Eva, a 5th-year software engineering student at [Epitech Paris](https://www.epitech.eu/) (class of 2027).
 
@@ -34,65 +34,78 @@ I like systems where many things happen at once: a game server juggling a dozen 
 
 ## Building right now
 
-<a href="https://playforward.fr"><img src="assets/playforward.gif" alt="PlayForward: home page and game catalog" width="100%"/></a>
-
-**[PlayForward](https://playforward.fr)** is an indie game discovery platform that ranks games by what you play, how long you play them and what you tell it, never by ad budget. Its slogan is *Search less, play more*.
-
-- **Back end:** the communities service, with type boundaries and routing behind the gateway
-- **Product:** A/B testing the slogan with a survey before locking the wording
-- **Stack:** TypeScript and Express services on a microservices platform, React on the front
+<table>
+<tr>
+<td width="40%" align="center"><a href="https://playforward.fr"><img src="assets/playforward.gif" alt="PlayForward and its mascot" width="100%"/></a></td>
+<td valign="middle">
+<h3><a href="https://playforward.fr">PlayForward</a></h3>
+<sub>TypeScript · Express · React · microservices</sub><br/><br/>
+An indie game discovery platform that ranks games by what you play, how long you play them and what you tell it, never by ad budget. <i>Search less, play more.</i><br/><br/>
+<b>Right now:</b> the communities service (type boundaries and routing behind the gateway), and A/B testing the slogan with a survey before locking the wording.
+</td>
+</tr>
+</table>
 
 &nbsp;
 
 ## Selected projects
 
-<a href="https://github.com/Chaegnal/area"><img align="left" width="340" hspace="18" src="assets/area.png" alt="AREA"/></a>
+<table>
+<tr>
+<td width="40%" align="center"><a href="https://github.com/Chaegnal/area"><img src="assets/area.png" alt="AREA" width="100%"/></a></td>
+<td valign="middle">
 <h3><a href="https://github.com/Chaegnal/area">AREA</a></h3>
 <sub>Go · React · Flutter · PostgreSQL · Docker</sub><br/><br/>
 Workflow automation in the style of Zapier. Connect GitHub, Spotify, Discord or Reddit and chain &quot;when this happens, do that&quot;. A web client and a mobile app share one API.<br/><br/>
 <b>My part:</b> the Go back end (684 of ~2,000 commits): layered architecture, OAuth2 services and the unit tests.
-<br clear="left"/>
-<br/>
-
-<a href="https://github.com/Chaegnal/r-type"><img align="left" width="340" hspace="18" src="assets/r-type.gif" alt="R-Type"/></a>
+</td>
+</tr>
+<tr>
+<td width="40%" align="center"><a href="https://github.com/Chaegnal/r-type"><img src="assets/r-type.gif" alt="R-Type" width="100%"/></a></td>
+<td valign="middle">
 <h3><a href="https://github.com/Chaegnal/r-type">R-Type</a></h3>
 <sub>C++ · ECS · Asio · raylib · CMake</sub><br/><br/>
 A multiplayer shoot'em up on a home-made ECS engine and a UDP server: four players against waves and bosses.<br/><br/>
 <b>My part:</b> game logic, level switching, the level 2 and 3 bosses, firing systems and server threading (123 of 745 commits).
-<br clear="left"/>
-<br/>
-
-<a href="https://github.com/Chaegnal/Zappy"><img align="left" width="340" hspace="18" src="assets/zappy.gif" alt="Zappy"/></a>
+</td>
+</tr>
+<tr>
+<td width="40%" align="center"><a href="https://github.com/Chaegnal/Zappy"><img src="assets/zappy.gif" alt="Zappy" width="100%"/></a></td>
+<td valign="middle">
 <h3><a href="https://github.com/Chaegnal/Zappy">Zappy</a></h3>
 <sub>C · C++ · raylib · TCP</sub><br/><br/>
 AI teams survive and evolve on a shared map. A C server, C++ AI clients and a 3D viewer where the players fly over the islands.<br/><br/>
 <b>My part:</b> server commands (look, broadcast, the graphical protocol), the win condition and tests (112 of 527 commits).
-<br clear="left"/>
-<br/>
-
-<a href="https://github.com/Chaegnal/Arcade"><img align="left" width="340" hspace="18" src="assets/arcade.gif" alt="Arcade"/></a>
+</td>
+</tr>
+<tr>
+<td width="40%" align="center"><a href="https://github.com/Chaegnal/Arcade"><img src="assets/arcade.gif" alt="Arcade" width="100%"/></a></td>
+<td valign="middle">
 <h3><a href="https://github.com/Chaegnal/Arcade">Arcade</a></h3>
 <sub>C++ · SFML · SDL2 · ncurses</sub><br/><br/>
 A retro gaming platform where games and graphics libraries are plugins loaded at runtime, so any game runs on any renderer.<br/><br/>
 <b>My part:</b> the three graphics libraries, Pacman, Nibbler and the menu (35 of 72 commits, shared with one teammate).
-<br clear="left"/>
-<br/>
-
-<a href="https://github.com/Chaegnal/RPG"><img align="left" width="340" hspace="18" src="assets/dragon-burden.gif" alt="Dragon Burden"/></a>
+</td>
+</tr>
+<tr>
+<td width="40%" align="center"><a href="https://github.com/Chaegnal/RPG"><img src="assets/dragon-burden.gif" alt="Dragon Burden" width="100%"/></a></td>
+<td valign="middle">
 <h3><a href="https://github.com/Chaegnal/RPG">Dragon Burden</a></h3>
 <sub>C · CSFML</sub><br/><br/>
 A top-down RPG written in C during my first year, with a village, a quest line and an inventory. Team of four.<br/><br/>
 <b>My part:</b> menus, maps, quests and inventory (18 commits).
-<br clear="left"/>
-<br/>
-
-<a href="https://github.com/Chaegnal/My-Teams"><img align="left" width="340" hspace="18" src="assets/my-teams.png" alt="My Teams"/></a>
+</td>
+</tr>
+<tr>
+<td width="40%" align="center"><a href="https://github.com/Chaegnal/My-Teams"><img src="assets/my-teams.png" alt="My Teams" width="100%"/></a></td>
+<td valign="middle">
 <h3><a href="https://github.com/Chaegnal/My-Teams">My Teams</a></h3>
 <sub>C · TCP · POSIX</sub><br/><br/>
 A Teams-style chat. One server handles many clients at once: teams, channels, threads and private messages, saved to disk.<br/><br/>
 <b>My part:</b> the server command layer, user and team commands, and persistence (26 of 81 commits).
-<br clear="left"/>
-<br/>
+</td>
+</tr>
+</table>
 
 **Also:** [Raytracer](https://github.com/Chaegnal/Raytracer) (C++20 ray tracer with a scene parser) · [The Plazza](https://github.com/Chaegnal/The-Plazza) (pizzeria simulation with processes, IPC and thread pools) · [Image Compressor](https://github.com/Chaegnal/Image-Compressor) (k-means in Haskell)
 

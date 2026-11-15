@@ -1,26 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 240" width="1000" height="240">
-<style>
-.n{font:700 64px 'Courier New',ui-monospace,Menlo,monospace;fill:#f4f4f0;letter-spacing:-2px}
-.s{font:400 20px ui-monospace,Menlo,Consolas,monospace;fill:#7ee0a3}
-.sc{font:400 14px ui-monospace,Menlo,monospace;fill:#6b7280;letter-spacing:3px}
-.inv{animation:mv 4s steps(8) infinite alternate}
-@keyframes mv{from{transform:translateX(0)}to{transform:translateX(64px)}}
-.bl{animation:b 1s steps(1) infinite}@keyframes b{50%{opacity:0}}
-</style>
-<rect width="1000" height="240" fill="#0b0d12"/>
-<g fill="#7ee0a3" class="inv" opacity=".9">
-<g transform="translate(640,34)">
-<path d="M8 0h8v8h-8zM40 0h8v8h-8zM16 8h24v8h-24zM8 16h8v8h8v-8h8v8h8v-8h8v8h-8v8h-32v-8h-8zM0 24h8v16h-8zM48 24h8v16h-8z"/>
-</g>
-<g transform="translate(740,34)">
-<path d="M8 0h8v8h-8zM40 0h8v8h-8zM16 8h24v8h-24zM8 16h8v8h8v-8h8v8h8v-8h8v8h-8v8h-32v-8h-8zM0 24h8v16h-8zM48 24h8v16h-8z"/>
-</g>
-<g transform="translate(840,34)">
-<path d="M8 0h8v8h-8zM40 0h8v8h-8zM16 8h24v8h-24zM8 16h8v8h8v-8h8v8h8v-8h8v8h-8v8h-32v-8h-8zM0 24h8v16h-8zM48 24h8v16h-8z"/>
-</g></g>
-<rect x="880" y="190" width="16" height="12" fill="#ffb4a2"/><rect x="872" y="202" width="32" height="10" fill="#ffb4a2"/>
-<text x="40" y="40" class="sc">PLAYER 1 · EPITECH PARIS</text>
-<text x="40" y="130" class="n">Eva Legrand</text>
-<text x="40" y="180" class="s">&gt; software engineer<tspan class="bl">_</tspan></text>
-<text x="40" y="214" class="sc">SERVERS · ENGINES · BROWSERS</text>
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b3b4a"/><stop offset="1" stop-color="#0d1321"/></linearGradient></defs>
+<style>.n{font:700 60px "Segoe UI",Helvetica,Arial,sans-serif;fill:#fff;letter-spacing:-1.5px}.s{font:400 20px "Segoe UI",Helvetica,Arial,sans-serif}.t{font:600 15px "Segoe UI",Helvetica,Arial,sans-serif;fill:#fff}.u{font:400 12.5px "Segoe UI",Helvetica,Arial,sans-serif;fill:#fff;fill-opacity:.6}.c{fill:#fff;fill-opacity:.08;stroke:#fff;stroke-opacity:.2}.m{font:500 13px ui-monospace,Menlo,Consolas,monospace}.a{animation:f 6s ease-in-out infinite}.b{animation:f 7s ease-in-out infinite reverse}.d{animation:f 8s ease-in-out infinite}@keyframes f{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}} .s{fill:#9ee7d7}.k{fill:#ff9e7a}.f{fill:#7dd3fc}.g2{fill:#c4b5fd}.p{fill:#fff;fill-opacity:.7}</style>
+<rect width="1000" height="240" rx="14" fill="url(#g)"/>
+<text x="48" y="108" class="n">Eva Legrand</text>
+<text x="50" y="150" class="s">Software engineer · Epitech Paris</text>
+<text x="50" y="190" class="s" opacity=".6">I like the parts you don't see.</text>
+<g class="a"><rect x="596" y="24" width="184" height="74" rx="12" class="c"/><text x="618" y="50" class="m"><tspan class="k">func</tspan> <tspan class="f">Handle</tspan><tspan class="p">(c Ctx) {</tspan></text><text x="636" y="70" class="m p">svc.Run(c)</text><text x="618" y="88" class="m p">}</text></g>
+<g class="b"><rect x="790" y="70" width="180" height="74" rx="12" class="c"/><text x="808" y="96" class="m"><tspan class="k">class</tspan> <tspan class="f">Engine</tspan> <tspan class="p">{</tspan></text><text x="826" y="116" class="m p">World&lt;Entity&gt; w;</text><text x="808" y="134" class="m p">};</text></g>
+<g class="d"><rect x="580" y="124" width="200" height="74" rx="12" class="c"/><text x="598" y="150" class="m"><tspan class="k">export</tspan> <tspan class="g2">const</tspan> <tspan class="f">route</tspan> <tspan class="p">=</tspan></text><text x="616" y="170" class="m p">router.use(gw);</text></g>
+<g class="a"><rect x="790" y="160" width="170" height="56" rx="12" class="c"/><text x="808" y="184" class="m"><tspan class="k">$</tspan> <tspan class="p">make &amp;&amp; ./run</tspan></text><text x="808" y="204" class="m" fill="#86efac">build ok</text></g>
 </svg>
